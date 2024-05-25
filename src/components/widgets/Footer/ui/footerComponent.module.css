@@ -29,7 +29,7 @@
 }
 
 .column a:hover {
-    color: var(--blue)
+    color: var(--dgrey)
 }
 
 @media (max-width:1200px) {
