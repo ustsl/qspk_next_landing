@@ -1,0 +1,42 @@
+.block {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.black {
+    background-color: var(--dgrey);
+}
+
+.flex {
+    padding: 50px 20px;
+    max-width: var(--max-width);
+    margin: auto;
+    bottom: 0;
+    display: flex;
+    gap: 50px;
+
+}
+
+.next {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.next p {
+    font-weight: 1.2em;
+    font-weight: 600;
+}
+
+@media (max-width:1200px) {
+    .flex {
+        padding: 20px;
+        overflow: auto;
+        gap: 20px;
+    }
+
+
+}

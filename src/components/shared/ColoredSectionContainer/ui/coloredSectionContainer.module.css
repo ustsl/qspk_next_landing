@@ -1,0 +1,17 @@
+.component {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: var(--component-bg-color, transparent);
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.block {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    box-sizing: border-box;
+}

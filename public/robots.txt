@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://quickspeak.me
+
+Disallow: /*?
+
+# Sitemaps
+Sitemap: https://quickspeak.me/sitemap.xml
