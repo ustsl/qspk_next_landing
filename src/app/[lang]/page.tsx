@@ -28,7 +28,7 @@ export default async function Home({
 }) {
   const lang = params.lang ? params.lang : 'en'
   return (
-    <main className={styles.main}>
+    <main>
       <HeaderComponent lang={lang} />
       <About lang={lang} />
       <QuickSpeakComponent quickId={`qspk_${lang}`} />
