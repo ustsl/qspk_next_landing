@@ -8,7 +8,6 @@ export const LogoComponent = () => {
     return (
         <Link className={styles.block} href="/">
             <Image src={icon} width={200} height={80} alt={'Quickspeak logo. Landing bot builder'} />
-
         </Link>
 
     )
