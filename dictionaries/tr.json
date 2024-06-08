@@ -1,17 +1,17 @@
 {
   "header": {
-    "title": "Landing Botları ve Düğme Widget'ları ile Daha Fazla Dönüşüm Elde Edin"
+    "title": "Landing Botları ve Düğmeli Diyalog Widget'ları ile Daha Fazla Dönüşüm Elde Edin"
   },
   "about": {
-    "title": "Adaptasyon, katılım ve içerik bizim için öncelikli olan modern bir etkileşimli oluşturucu geliştirdik"
+    "title": "Uyarlama, etkileşim ve içerik <span>öncelikli</span> olduğu modern bir etkileşim oluşturucu geliştirdik"
   },
   "final": {
-    "title": "AI ile İlk Projenizi Oluşturun, Sitenize Entegre Edin veya Açılış Sayfası Olarak Kullanın",
-    "button": "QuickSpeak açılış sayfasına gidin",
-    "down": "Veya widget'a kaydırın"
+    "title": "İlk projenizi <span>AI ile</span> oluşturun, sitenize entegre edin veya açılış sayfası olarak kullanın",
+    "button": "QuickSpeak Açılış Sayfasına Git",
+    "down": "Veya widget'a kadar aşağı kaydırın"
   },
   "meta": {
-    "title": "Quickspeak. Landing Bot Oluşturucu. Dinamik Açılış Sayfaları Oluşturun",
-    "description": "Quickspeak ile düğme diyaloğu formatında dinamik bir açılış sayfası oluşturun."
+    "title": "Quickspeak. Açılış Botu Oluşturucu. Dinamik Bir Açılış Sayfası Oluşturun",
+    "description": "Düğmeli diyalog formatını kullanarak Quickspeak ile dinamik bir açılış sayfası oluşturun."
   }
 }

@@ -1,17 +1,17 @@
 {
   "header": {
-    "title": "Get More Conversions with Landing Bots and Button Widgets"
+    "title": "Get More Conversions with Landing Bots and Button-Based Dialog Widgets"
   },
   "about": {
-    "title": "We have developed a modern interactive builder where adaptation, engagement, and content are paramount"
+    "title": "We have developed a modern interactive constructor, <span>where</span> adaptation, engagement, and content are <span>paramount</span>"
   },
   "final": {
-    "title": "Create Your First Project with AI, Integrate It on Your Website, or Use It as a Landing Page",
-    "button": "Go to the QuickSpeak landing page",
-    "down": "Or scroll to the widget"
+    "title": "Create your first project <span>with AI</span>, integrate it into your website, or use it as a landing page",
+    "button": "Go to QuickSpeak Landing",
+    "down": "Or scroll down to the widget"
   },
   "meta": {
-    "title": "Quickspeak. Landing Bot Builder. Create Dynamic Landing Pages",
-    "description": "Create a dynamic landing page with Quickspeak in a button dialogue format."
+    "title": "Quickspeak. Landing Bot Constructor. Create a Dynamic Landing Page",
+    "description": "Create a dynamic landing page with Quickspeak using a button-based dialog format."
   }
 }

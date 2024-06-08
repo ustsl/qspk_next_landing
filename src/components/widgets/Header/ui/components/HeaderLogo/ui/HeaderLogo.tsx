@@ -6,7 +6,7 @@ import Image from 'next/image'
 export const HeaderLogo = () => {
     return (
 
-        <AdaptiveImageContainer image={logo} alt={'QuickSpeak - landing bot builder'} width={600} height={237} />
+        <AdaptiveImageContainer image={logo} alt={'QuickSpeak - landing bot builder'} width={400} height={200} />
 
     )
 }
