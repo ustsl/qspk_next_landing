@@ -7,6 +7,8 @@
 
 .quick iframe {
     border: 0;
+    border: 3px solid black;
+    border-radius: var(--border-radius);
     max-width: 730px;
     width: 100%;
 }
