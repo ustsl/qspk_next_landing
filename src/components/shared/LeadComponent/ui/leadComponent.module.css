@@ -9,7 +9,7 @@
 .lead h2,
 .lead h3 {
     color: var(--black);
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 1.2em;
 }
 
@@ -25,7 +25,7 @@
     .lead h1,
     .lead h2,
     .lead h3 {
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-align: center;
     }
 }

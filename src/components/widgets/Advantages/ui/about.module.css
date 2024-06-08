@@ -1,0 +1,19 @@
+.block {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: hidden;
+}
+
+
+.next {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.next p {
+    font-weight: 1.2em;
+    font-weight: 600;
+}

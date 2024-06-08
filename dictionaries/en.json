@@ -1,20 +1,17 @@
 {
   "header": {
-    "title": "Try this awesome button dialog format for landing pages and widgets"
+    "title": "Get More Conversions with Landing Bots and Button Widgets"
   },
-  "advantages": {
-    "title": "We have developed a <span>modern landing page</span> builder <span>where</span> adaptation, gamification, and content — are important",
-    "ad1": "<p>A page or widget in replica format will hold the <strong>user’s attention.</strong></p>",
-    "ad2": "<p><strong>Will save your time.</strong> The prototype is assembled in a couple of minutes, and a full-fledged project in 20 minutes.</p>",
-    "ad3": "<p>It will become part of <strong>modern marketing</strong>, where advertisements and pages must be created in a stream and instantly.</p>"
+  "about": {
+    "title": "We have developed a modern interactive builder where adaptation, engagement, and content are paramount"
   },
   "final": {
-    "title": "And <span>sure</span>, we have integration <span>with cryptoprocessing and AI</span> — work without boundaries",
-    "button": "Go to the quick landing page",
-    "down": "Or see QUICKSPEAK WIDGET"
+    "title": "Create Your First Project with AI, Integrate It on Your Website, or Use It as a Landing Page",
+    "button": "Go to the QuickSpeak landing page",
+    "down": "Or scroll to the widget"
   },
   "meta": {
-    "title": "Quickspeak. Landing bot builder. Create dynamic landing page",
-    "description": "Create dynamic landing page with Quickspeak. With awesome landing button dialog style."
+    "title": "Quickspeak. Landing Bot Builder. Create Dynamic Landing Pages",
+    "description": "Create a dynamic landing page with Quickspeak in a button dialogue format."
   }
 }

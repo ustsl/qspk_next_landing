@@ -14,7 +14,3 @@
 .radius {
     border-radius: var(--border-radius);
 }
-
-.active {
-    color: var(--blue);
-}

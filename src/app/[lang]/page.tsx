@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 import { QuickSpeakComponent } from "@/components/shared/QuickSpeakComponent";
 
-import { Advantages } from "@/components/widgets/Advantages";
+import { About } from "@/components/widgets/Advantages";
 import { HeaderComponent } from "@/components/widgets/Header";
 import { FooterComponent } from "@/components/widgets/Footer";
 import { baseLanguages } from "@/types/baseTypes";
@@ -30,7 +30,7 @@ export default async function Home({
   return (
     <main className={styles.main}>
       <HeaderComponent lang={lang} />
-      <Advantages lang={lang} />
+      <About lang={lang} />
       <QuickSpeakComponent quickId={`qspk_${lang}`} />
       <FooterComponent />
     </main>
