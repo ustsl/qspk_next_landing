@@ -3,9 +3,9 @@ import styles from './quickSpeakComponent.module.css';
 
 export const QuickSpeakComponent = ({ quickId }: { quickId: string }) => {
     return (
-        <ColoredSectionContainer color="lgrey">
+        <ColoredSectionContainer color="dgrey">
             <div className={styles.quick}>
-                <iframe src={`https://qsbot.app/${quickId}`} height="600" width="100%" ></iframe>
+                <iframe src={`https://qsbot.app/${quickId}`} width="100%" ></iframe>
             </div>
         </ColoredSectionContainer>
     )
