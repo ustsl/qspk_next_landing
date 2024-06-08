@@ -18,7 +18,7 @@ export const FooterComponent = () => {
                 </div>
 
                 <div className={styles.column}>
-                    <Link href="/policy.pdf">Privacy Policy</Link>
+                    <Link href="https://qsbot.app/policy.pdf">Privacy Policy</Link>
                     <Link href="mailto:quickspeakme@gmail.com">quickspeakme@gmail.com</Link>
                 </div>
             </div>
