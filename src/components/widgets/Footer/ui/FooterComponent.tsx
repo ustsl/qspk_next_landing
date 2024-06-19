@@ -1,8 +1,9 @@
 import styles from './footerComponent.module.css';
-
+import logo from './logo.svg'
 import Link from 'next/link';
 import { LogoComponent } from '@/components/shared/LogoComponent';
-import { ColoredSectionContainer } from '@/components/shared/ColoredSectionContainer';
+import { AdaptiveImageContainer } from '@/components/shared/AdaptiveImageContainer';
+
 
 export const FooterComponent = () => {
     return (
@@ -10,7 +11,9 @@ export const FooterComponent = () => {
         <footer className={styles.footer}>
             <div className={styles.content}>
                 <div className={styles.column}>
-                    <LogoComponent />
+                    <div className={styles.logo}>
+                        <AdaptiveImageContainer image={logo} width={138} height={123} alt="Quickspeak" />
+                    </div>
                 </div>
 
                 <div className={styles.column}>

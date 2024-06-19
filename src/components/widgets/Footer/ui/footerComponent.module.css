@@ -31,6 +31,10 @@
     color: var(--dgrey)
 }
 
+.logo {
+    max-width: 150px;
+}
+
 @media (max-width:1200px) {
     .content {
         padding: 2rem 1rem;
