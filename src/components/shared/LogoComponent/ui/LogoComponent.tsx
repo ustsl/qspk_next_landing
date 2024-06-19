@@ -6,9 +6,9 @@ import Image from 'next/image'
 
 export const LogoComponent = () => {
     return (
-        <Link className={styles.block} href="/">
+        <div className={styles.block}>
             <Image src={icon} width={200} height={80} alt={'Quickspeak logo. Landing bot builder'} />
-        </Link>
+        </div>
 
     )
 }

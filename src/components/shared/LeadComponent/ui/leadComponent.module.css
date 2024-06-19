@@ -9,8 +9,9 @@
 .lead h2,
 .lead h3 {
     color: var(--black);
-    font-size: 2.5em;
+    font-size: 2.3em;
     line-height: 1.2em;
+    font-weight: 600;
 }
 
 .lead span {

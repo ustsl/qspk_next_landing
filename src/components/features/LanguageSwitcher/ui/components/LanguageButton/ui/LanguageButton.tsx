@@ -32,7 +32,7 @@ export const LanguageButton = ({ language, flagOnly, onClick }: ILanguageButton)
 
     return (
         <div className={styles.container} onClick={onClick}>
-            <Image src={iconSrc} alt={language} height={16} />
+
             {!flagOnly && langText}
         </div>
     );
