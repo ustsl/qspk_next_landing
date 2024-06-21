@@ -1,6 +1,7 @@
 .button {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
     border: 1px solid var(--black);
     background-color: var(--black);
@@ -12,6 +13,11 @@
     gap: 20px;
 }
 
+.white {
+    border: 1px solid var(--lgrey);
+    background-color: var(--lgrey);
+    color: black;
+}
 
 .button:hover {
     border: 1px solid var(--dgrey);

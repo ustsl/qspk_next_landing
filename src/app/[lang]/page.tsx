@@ -31,7 +31,7 @@ export default async function Home({
     <main>
       <HeaderComponent lang={lang} />
       <About lang={lang} />
-      <QuickSpeakComponent quickId={`qspk_${lang}`} />
+      <QuickSpeakComponent quickId={`qspk_${lang}`} lang={lang} />
       <FooterComponent />
     </main>
   );
