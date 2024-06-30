@@ -1,4 +1,5 @@
 .flex {
+
     box-sizing: border-box;
     width: 100%;
     min-width: 100%;
@@ -11,12 +12,14 @@
 
 .title {
     height: fit-content;
+
 }
 
 .quick {
     width: 100%;
     max-width: 600px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .about {
@@ -24,6 +27,7 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 100px;
+    margin: 0 auto;
 }
 
 .quick iframe {
