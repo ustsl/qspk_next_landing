@@ -1,21 +1,20 @@
 {
   "header": {
-    "title": "Create an Interactive Landing Page or Widget for Your Website with AI in One Minute"
+    "title": "Create an interactive dialogue widget for your website with AI features"
   },
   "about": {
-    "title": "We have developed a modern interactive builder <span>where</span> adaptation, engagement, and content are <span>top priorities</span>"
+    "title": "We have developed a modern interactive builder, <span>where</span> adaptation, engagement, and content are <span>paramount</span>"
   },
   "quickspeak": {
-    "title": "Generate <span>more leads</span> with interactive projects QuickSpeak",
+    "title": "Generate <span>more leads</span> with QuickSpeak dialogue widgets",
     "button": "Register"
   },
   "final": {
-    "title": "Launch projects easily, gain <span>more conversions</span> — start for free!",
-    "button": "See an example of an interactive landing page",
-    "down": "Or scroll down to the widget"
+    "title": "Launch projects effortlessly, achieve <span>more conversions</span> — start for free!",
+    "down": "Scroll down to the widget"
   },
   "meta": {
-    "title": "Quickspeak. Landing Bot Builder. Create a Dynamic Landing Page",
-    "description": "Create a dynamic landing page with Quickspeak in the format of a button dialogue."
+    "title": "Quickspeak. Dialogue AI Widget Builder",
+    "description": "Create a dialogue AI widget with Quickspeak."
   }
 }

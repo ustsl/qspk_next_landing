@@ -1,21 +1,20 @@
 {
   "header": {
-    "title": "AI ile Bir Dakikada Etkileşimli Bir Açılış Sayfası veya Widget Oluşturun"
+    "title": "Yapay Zeka özelliklerine sahip, web siteniz için etkileşimli bir diyalog widget'ı oluşturun"
   },
   "about": {
-    "title": "Adaptasyonun, katılımın ve içeriğin <span>öncelikli olduğu</span> modern bir etkileşim oluşturucu geliştirdik"
+    "title": "Modern bir etkileşim oluşturucu geliştirdik, <span>burada</span> uyum, etkileşim ve içerik <span>ön planda</span>"
   },
   "quickspeak": {
-    "title": "İnteraktif projelerle <span>daha fazla potansiyel müşteri</span> oluşturun QuickSpeak",
+    "title": "QuickSpeak diyalog widget'ları ile <span>daha fazla müşteri adayı</span> elde edin",
     "button": "Kayıt Ol"
   },
   "final": {
-    "title": "Projeleri kolayca başlatın, <span>daha fazla dönüşüm</span> elde edin — ücretsiz başlayın!",
-    "button": "Etkileşimli bir açılış sayfası örneğini görün",
-    "down": "Veya widget'a doğru kaydırın"
+    "title": "Projelerinizi kolayca başlatın, <span>daha fazla dönüşüm</span> elde edin — ücretsiz başlayın!",
+    "down": "Widget'a kadar aşağı kaydırın"
   },
   "meta": {
-    "title": "Quickspeak. Açılış Botu Oluşturucu. Dinamik Bir Açılış Sayfası Oluşturun",
-    "description": "Düğme diyaloğu formatında Quickspeak ile dinamik bir açılış sayfası oluşturun."
+    "title": "Quickspeak. Diyalog AI Widget Oluşturucu",
+    "description": "Quickspeak ile bir diyalog AI widget'ı oluşturun."
   }
 }

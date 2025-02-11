@@ -1,7 +1,6 @@
 'use client';
 
 import styles from './languageButton.module.css';
-import Image from 'next/image';
 import { ILanguageButton } from './languageButton.props';
 import ruIcon from './img/ru.svg';
 import enIcon from './img/en.svg';
@@ -23,6 +22,10 @@ export const LanguageButton = ({ language, flagOnly, onClick }: ILanguageButton)
         case "tr":
             iconSrc = trIcon;
             langText = "Türkçe";
+            break;
+        case "de":
+            iconSrc = deIcon;
+            langText = "Deutsch";
             break;
         default:
             iconSrc = ruIcon;

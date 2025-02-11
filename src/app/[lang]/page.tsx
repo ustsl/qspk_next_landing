@@ -1,6 +1,4 @@
 
-import styles from "./page.module.css";
-
 import { QuickSpeakComponent } from "@/components/shared/QuickSpeakComponent";
 
 import { About } from "@/components/widgets/Advantages";
