@@ -5,15 +5,3 @@
     gap: 50px;
     overflow: hidden;
 }
-
-
-.next {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.next p {
-    font-weight: 1.2em;
-    font-weight: 600;
-}
