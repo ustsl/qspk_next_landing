@@ -15,7 +15,7 @@ export const QuickSpeakComponent = ({ quickId, lang }: { quickId: string, lang: 
                     <LeadComponent scheme="white">
                         <h1 dangerouslySetInnerHTML={{ __html: quickspeak.title }} className={styles.title} />
                     </LeadComponent>
-                    <LinkButton href={'https://account.qsbot.app/'} text={quickspeak.button} scheme="white" />
+                    <LinkButton href={'https://account.qspk.me'} text={quickspeak.button} scheme="white" />
                 </div>
 
                 <div className={styles.quick}>
