@@ -23,8 +23,8 @@
   --component-bg-color: var(--accent);
   background: linear-gradient(
     70deg,
-    rgba(248, 243, 145, 1) 80%,
-    rgb(243, 236, 108) 100%
+    rgba(248, 243, 145, 1) 60%,
+    rgb(238, 232, 115) 100%
   );
 }
 .lgrey {
