@@ -1,19 +1,19 @@
 {
   "header": {
-    "title": "Create an interactive dialogue widget for your website and social media with AI features"
+    "title": "Create a landing page or a widget in button-dialog format with Quick Builder"
   },
   "about": {
-    "title": "We have developed a modern interactive builder, <span>where</span> adaptation, engagement, and content are <span>paramount</span>"
-  },
-  "quickspeak": {
-    "title": "Generate <span>more leads</span> with QuickSpeak dialogue widgets",
-    "button": "Register"
+    "title": "<span>Nothing extra</span> – only content in Q&A dialogue format, AI and built-in plugins"
   },
   "final": {
-    "title": "Launch projects effortlessly, achieve <span>more conversions</span> — start for free!"
+    "title": "All builder functions except built-in dialogue forms are <span>available for free</span>!"
+  },
+  "quickspeak": {
+    "title": "Create a quick-landing or website widget <span>in 2 minutes</span>",
+    "button": "Sign Up"
   },
   "meta": {
-    "title": "Quickspeak. Dialogue AI Widget Builder",
-    "description": "Create a dialogue AI widget with Quickspeak."
+    "title": "Quickspeak. Constructor of AI dialogue widgets",
+    "description": "Create an AI dialogue widget with Quickspeak."
   }
 }

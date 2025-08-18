@@ -1,19 +1,19 @@
 {
-    "header": {
-        "title": "Erstellen Sie ein interaktives Dialog-Widget für Ihre Website mit KI-Funktionen"
-    },
-    "about": {
-        "title": "Wir haben einen modernen Interaktiv-Builder entwickelt, <span>wo</span> Anpassung, Engagement und Inhalt <span>an erster Stelle</span> stehen"
-    },
-    "quickspeak": {
-        "title": "Generieren Sie <span>mehr Leads</span> mit QuickSpeak Dialog-Widgets",
-        "button": "Registrieren"
-    },
-    "final": {
-        "title": "Starten Sie Projekte mühelos, erzielen Sie <span>mehr Conversions</span> — starten Sie kostenlos!"
-    },
-    "meta": {
-        "title": "Quickspeak. Dialog-AI-Widget-Builder",
-        "description": "Erstellen Sie ein Dialog-AI-Widget mit Quickspeak."
-    }
+  "header": {
+    "title": "Erstellen Sie eine Landingpage oder ein Widget im Button-Dialog-Format mit dem Quick-Builder"
+  },
+  "about": {
+    "title": "<span>Nichts Überflüssiges</span> – nur Inhalte im Frage-Antwort-Dialogformat, KI und integrierte Plugins"
+  },
+  "final": {
+    "title": "Alle Funktionen des Builders außer den integrierten Dialogformularen sind <span>kostenlos verfügbar</span>!"
+  },
+  "quickspeak": {
+    "title": "Erstellen Sie eine Quick-Landingpage oder ein Website-Widget <span>in 2 Minuten</span>",
+    "button": "Registrieren"
+  },
+  "meta": {
+    "title": "Quickspeak. Baukasten für dialogbasierte KI-Widgets",
+    "description": "Erstellen Sie ein dialogbasiertes KI-Widget mit Quickspeak."
+  }
 }

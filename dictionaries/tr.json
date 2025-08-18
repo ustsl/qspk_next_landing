@@ -1,19 +1,19 @@
 {
   "header": {
-    "title": "Yapay Zeka özelliklerine sahip, web siteniz için etkileşimli bir diyalog widget'ı oluşturun"
+    "title": "Quick ile butonlu diyalog formatında bir landing page veya widget oluşturun"
   },
   "about": {
-    "title": "Modern bir etkileşim oluşturucu geliştirdik, <span>burada</span> uyum, etkileşim ve içerik <span>ön planda</span>"
-  },
-  "quickspeak": {
-    "title": "QuickSpeak diyalog widget'ları ile <span>daha fazla müşteri adayı</span> elde edin",
-    "button": "Kayıt Ol"
+    "title": "<span>Gereksiz hiçbir şey yok</span> – sadece soru-cevap diyalog formatında içerik, yapay zeka ve dahili eklentiler"
   },
   "final": {
-    "title": "Projelerinizi kolayca başlatın, <span>daha fazla dönüşüm</span> elde edin — ücretsiz başlayın!"
+    "title": "Dahili diyalog formları dışında tüm oluşturucu özellikleri <span>ücretsiz olarak kullanılabilir</span>!"
+  },
+  "quickspeak": {
+    "title": "2 dakikada <span>hızlı bir landing page</span> veya site widget’ı oluşturun",
+    "button": "Kayıt Ol"
   },
   "meta": {
-    "title": "Quickspeak. Diyalog AI Widget Oluşturucu",
-    "description": "Quickspeak ile bir diyalog AI widget'ı oluşturun."
+    "title": "Quickspeak. Diyalog tabanlı yapay zeka widget oluşturucu",
+    "description": "Quickspeak ile diyalog tabanlı bir yapay zeka widget’ı oluşturun."
   }
 }

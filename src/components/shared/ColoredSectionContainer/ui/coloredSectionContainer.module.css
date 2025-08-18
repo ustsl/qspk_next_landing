@@ -1,17 +1,78 @@
+/* Базовый контейнер */
 .component {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    background-color: var(--component-bg-color, transparent);
-    min-height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--component-bg-color, transparent);
+  z-index: 10;
 }
 
 .block {
-    width: 100%;
-    max-width: var(--max-width);
-    margin: auto;
-    box-sizing: border-box;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+  box-sizing: border-box;
+  z-index: 11;
+}
+
+.accent {
+  --component-bg-color: var(--accent);
+  background: linear-gradient(
+    70deg,
+    rgba(248, 243, 145, 1) 80%,
+    rgb(243, 236, 108) 100%
+  );
+}
+.lgrey {
+  --component-bg-color: var(--lgrey);
+}
+.dgrey {
+  --component-bg-color: var(--dgrey);
+}
+.bgrey {
+  --component-bg-color: var(--bgrey);
+}
+.black {
+  --component-bg-color: var(--black);
+}
+.white {
+  --component-bg-color: var(--white);
+}
+
+.accent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    rgba(248, 243, 145, 1) 0%,
+    rgba(232, 225, 88, 1) 100%
+  );
+  background-size: 200% 200%;
+  animation: neonShift 5s ease-in-out infinite;
+}
+
+@keyframes neonShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accent::before {
+    animation: none;
+    background-position: 50% 50%;
+  }
 }
