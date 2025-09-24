@@ -1,0 +1,22 @@
+{
+  "en": {
+    "text": "We use cookies to improve the site experience. By continuing to use the site, you agree to the",
+    "linkText": "use of cookies",
+    "button": "Agree"
+  },
+  "ru": {
+    "text": "Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь",
+    "linkText": "с использованием файлов cookie",
+    "button": "Согласен"
+  },
+  "de": {
+    "text": "Wir verwenden Cookies, um die Website zu verbessern. Wenn Sie die Website weiter nutzen, stimmen Sie der",
+    "linkText": "Verwendung von Cookies",
+    "button": "Einverstanden"
+  },
+  "tr": {
+    "text": "Site deneyimini geliştirmek için çerezler kullanıyoruz. Siteyi kullanmaya devam ederek",
+    "linkText": "çerezlerin kullanımını",
+    "button": "Kabul ediyorum"
+  }
+}

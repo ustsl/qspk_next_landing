@@ -1,0 +1,1 @@
+export { CookieComponent } from "./ui/CookieComponent";

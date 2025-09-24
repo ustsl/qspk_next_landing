@@ -1,12 +1,11 @@
 
 import { QuickSpeakComponent } from "@/components/shared/QuickSpeakComponent";
 
-import { About } from "@/components/widgets/Advantages";
-import { HeaderComponent } from "@/components/widgets/Header";
-import { FooterComponent } from "@/components/widgets/Footer";
+
 import { baseLanguages } from "@/types/baseTypes";
 import { Metadata } from "next";
 import { getDictionary } from "../../../dictionaries/clientDictionary";
+import { CookieComponent } from "@/components/features/CookieComponent";
 
 export async function generateMetadata(
   { params }: any
@@ -27,10 +26,9 @@ export default async function Home({
   const lang = params.lang ? params.lang : 'en'
   return (
     <main>
-      <HeaderComponent lang={lang} />
-      <About lang={lang} />
       <QuickSpeakComponent quickId={`qspk_${lang}`} lang={lang} />
-      <FooterComponent />
+      <CookieComponent lang={lang} />
+
     </main>
   );
 }

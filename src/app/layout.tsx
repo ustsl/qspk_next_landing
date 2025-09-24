@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 
 import { ScriptsBlock } from "@/components/shared/ScriptsBlock";
+import { CookieComponent } from "@/components/features/CookieComponent";
 
 const inter = Montserrat({ subsets: ["latin", "cyrillic"] });
 

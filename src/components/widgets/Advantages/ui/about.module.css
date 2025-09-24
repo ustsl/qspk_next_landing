@@ -1,7 +1,0 @@
-.block {
-    padding: 50px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    overflow: hidden;
-}

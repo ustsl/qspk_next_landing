@@ -4,6 +4,7 @@ import { LeadComponent } from '../../LeadComponent';
 import { LinkButton } from '../../LinkButton';
 import styles from './quickSpeakComponent.module.css';
 import { getDictionary } from '../../../../../dictionaries/clientDictionary'
+import { LogoComponent } from '../../LogoComponent';
 
 export const QuickSpeakComponent = ({ quickId, lang }: { quickId: string, lang: baseLanguages }) => {
 
@@ -12,6 +13,7 @@ export const QuickSpeakComponent = ({ quickId, lang }: { quickId: string, lang: 
         <ColoredSectionContainer color="black">
             <div className={styles.flex}>
                 <div className={styles.about}>
+                    <LogoComponent />
                     <LeadComponent scheme="white">
                         <h1 dangerouslySetInnerHTML={{ __html: quickspeak.title }} className={styles.title} />
                     </LeadComponent>
