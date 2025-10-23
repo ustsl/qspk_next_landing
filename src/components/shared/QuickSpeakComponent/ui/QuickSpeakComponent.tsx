@@ -21,7 +21,7 @@ export const QuickSpeakComponent = ({ quickId, lang }: { quickId: string, lang: 
                 </div>
 
                 <div className={styles.quick}>
-                    <iframe src={`https://qsbot.app/${quickId}`} width="100%" ></iframe>
+                    <iframe src={`https://qspk.me/${quickId}`} width="100%" ></iframe>
                 </div>
             </div>
         </ColoredSectionContainer>
