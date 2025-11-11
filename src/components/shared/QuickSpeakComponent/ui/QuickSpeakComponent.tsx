@@ -1,29 +1,58 @@
 import { baseLanguages } from '@/types/baseTypes';
-import { ColoredSectionContainer } from '../../ColoredSectionContainer';
-import { LeadComponent } from '../../LeadComponent';
-import { LinkButton } from '../../LinkButton';
 import styles from './quickSpeakComponent.module.css';
-import { getDictionary } from '../../../../../dictionaries/clientDictionary'
-import { LogoComponent } from '../../LogoComponent';
 
-export const QuickSpeakComponent = ({ quickId, lang }: { quickId: string, lang: baseLanguages }) => {
+type QuickSpeakComponentProps = {
+    lang: baseLanguages;
+    quickId: string;
+    title: string;
+    buttonLabel: string;
+    subtitle?: string;
+};
 
-    const { quickspeak } = getDictionary(lang)
+export const QuickSpeakComponent = ({
+    lang,
+    quickId,
+    title,
+    buttonLabel,
+    subtitle,
+}: QuickSpeakComponentProps) => {
+    const iframeSrc = `https://app.qspk.me/${quickId}`;
+
     return (
-        <ColoredSectionContainer color="black">
-            <div className={styles.flex}>
-                <div className={styles.about}>
-                    <LogoComponent />
-                    <LeadComponent scheme="white">
-                        <h1 dangerouslySetInnerHTML={{ __html: quickspeak.title }} className={styles.title} />
-                    </LeadComponent>
-                    <LinkButton href={'https://account.qspk.me'} text={quickspeak.button} scheme="white" />
-                </div>
+        <section className={styles.wrapper} data-lang={lang} aria-live="polite">
+            <div className={styles.content}>
+                {subtitle && (
+                    <p
+                        className={styles.subtitle}
+                        dangerouslySetInnerHTML={{ __html: subtitle }}
+                    />
+                )}
+                <h1
+                    className={styles.title}
+                    dangerouslySetInnerHTML={{ __html: title }}
+                />
+                <a
+                    className={styles.cta}
+                    href="https://account.qspk.me"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span>{buttonLabel}</span>
+                </a>
+            </div>
 
-                <div className={styles.quick}>
-                    <iframe src={`https://app.qspk.me/${quickId}`} width="100%" ></iframe>
+            <div className={styles.preview}>
+                <div className={styles.iframeShell}>
+                    <iframe
+                        key={quickId}
+                        title={`QuickSpeak preview ${lang}`}
+                        src={iframeSrc}
+                        loading="lazy"
+                        className={styles.iframe}
+                        allow="clipboard-write"
+                    ></iframe>
                 </div>
             </div>
-        </ColoredSectionContainer>
-    )
-}
+        </section>
+    );
+};

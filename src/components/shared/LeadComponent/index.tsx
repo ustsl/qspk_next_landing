@@ -1,1 +1,0 @@
-export { LeadComponent } from "./ui/LeadComponent";

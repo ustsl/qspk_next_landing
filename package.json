@@ -9,24 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@formatjs/intl-localematcher": "^0.5.4",
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "@fortawesome/free-brands-svg-icons": "^6.5.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "classnames": "^2.5.1",
-    "negotiator": "^0.6.3",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "@formatjs/intl-localematcher": "^0.6.2",
+    "negotiator": "^1.0.0",
+    "next": "16.0.1",
+    "react": "^19",
+    "react-dom": "^19"
   },
   "devDependencies": {
-    "@types/negotiator": "^0.6.3",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4",
+    "@types/negotiator": "^0.6.4",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
     "typescript": "^5"
   }
 }
