@@ -1,19 +1,13 @@
 {
   "header": {
-    "title": "Quick ile butonlu diyalog formatında bir landing page veya widget oluşturun"
-  },
-  "about": {
-    "title": "<span>Gereksiz hiçbir şey yok</span> – sadece soru-cevap diyalog formatında içerik, yapay zeka ve dahili eklentiler"
-  },
-  "final": {
-    "title": "Dahili diyalog formları dışında tüm oluşturucu özellikleri <span>ücretsiz olarak kullanılabilir</span>!"
+    "title": "Web için esnek yapay zekalı buton bot oluşturucusu"
   },
   "quickspeak": {
-    "title": "2 dakikada <span>hızlı bir landing page</span> veya site widget’ı oluşturun",
-    "button": "Kayıt Ol"
+    "title": "Projeleri ücretsiz <span>2 dakikada</span> oluşturun",
+    "button": "Kayıt ol"
   },
   "meta": {
     "title": "Quickspeak. Diyalog tabanlı yapay zeka widget oluşturucu",
-    "description": "Quickspeak ile diyalog tabanlı bir yapay zeka widget’ı oluşturun."
+    "description": "Quickspeak ile diyalog tabanlı bir yapay zeka widget'ı oluşturun."
   }
 }

@@ -1,19 +1,13 @@
 {
   "header": {
-    "title": "Create a landing page or a widget in button-dialog format with Quick Builder"
-  },
-  "about": {
-    "title": "<span>Nothing extra</span> – only content in Q&A dialogue format, AI and built-in plugins"
-  },
-  "final": {
-    "title": "All builder functions except built-in dialogue forms are <span>available for free</span>!"
+    "title": "Flexible AI button bot builder for the web"
   },
   "quickspeak": {
-    "title": "Create a quick-landing or website widget <span>in 2 minutes</span>",
-    "button": "Sign Up"
+    "title": "Create projects for free <span>in 2 minutes</span>",
+    "button": "Sign up"
   },
   "meta": {
-    "title": "Quickspeak. Constructor of AI dialogue widgets",
-    "description": "Create an AI dialogue widget with Quickspeak."
+    "title": "Quickspeak. Conversational AI widget builder",
+    "description": "Create a conversational AI widget with Quickspeak."
   }
 }

@@ -1,19 +1,13 @@
 {
   "header": {
-    "title": "Erstellen Sie eine Landingpage oder ein Widget im Button-Dialog-Format mit dem Quick-Builder"
-  },
-  "about": {
-    "title": "<span>Nichts Überflüssiges</span> – nur Inhalte im Frage-Antwort-Dialogformat, KI und integrierte Plugins"
-  },
-  "final": {
-    "title": "Alle Funktionen des Builders außer den integrierten Dialogformularen sind <span>kostenlos verfügbar</span>!"
+    "title": "Flexibler KI-Button-Bot-Baukasten für das Web"
   },
   "quickspeak": {
-    "title": "Erstellen Sie eine Quick-Landingpage oder ein Website-Widget <span>in 2 Minuten</span>",
+    "title": "Erstellen Sie Projekte kostenlos <span>in 2 Minuten</span>",
     "button": "Registrieren"
   },
   "meta": {
-    "title": "Quickspeak. Baukasten für dialogbasierte KI-Widgets",
-    "description": "Erstellen Sie ein dialogbasiertes KI-Widget mit Quickspeak."
+    "title": "Quickspeak. Baukasten für dialogorientierte KI-Widgets",
+    "description": "Erstellen Sie mit Quickspeak ein dialogorientiertes KI-Widget."
   }
 }
